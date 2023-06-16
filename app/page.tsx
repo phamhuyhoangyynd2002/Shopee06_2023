@@ -23,12 +23,12 @@ export default function Home() {
         if (n < 1) { slideIndex = x.length }
         console.log(x);
         for (i = 0; i < x.length; i++) {
-            x[i].classList.add('banner-img-hidden');
+            x[i].classList.add('hidden');
         }
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" banner-img-badge-active", "");
         }
-        if (x.length != 0) x[slideIndex - 1].classList.remove('banner-img-hidden');
+        if (x.length != 0) x[slideIndex - 1].classList.remove('hidden');
         if (dots.length != 0) dots[slideIndex - 1].className += " banner-img-badge-active";
     }
 

@@ -1,0 +1,459 @@
+.body-content-products {
+    margin-top: 120px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+.products-category {
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-align: left;
+}
+
+.product-briefing {
+    background-color: #ffffff;
+    border-radius: 3px;
+    display: flex;
+    margin-top: 1.25rem;
+}
+
+.product-briefing-img {
+    width: 450px;
+    padding: 15px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-briefing-img-list-small {
+    margin: 5px -5px;
+    position: relative;
+    width: 450px;
+}
+
+.product-briefing-img-small {
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 20%;
+}
+
+.border_1px_ee4d2d {
+    border: 1px solid #ee4d2d;
+}
+
+.product-briefing-img-big {
+    width: 450px;
+    height: 450px;
+}
+
+
+.product-briefing-img-list-small-left {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    height: 50%;
+    width: 2rem;
+    background-color: rgba(100, 100, 100, 0.4);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.product-briefing-img-list-small-right {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    height: 50%;
+    width: 2rem;
+    background-color: rgba(100, 100, 100, 0.4);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.product-briefing-share {
+    width: 450px;
+    height: 25px;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.product-briefing-share>div {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-briefing-share>div>div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sprite-product-sharing {
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/2e6656dc1c9d158ee5a9cf7640983150.png);
+    background-size: 100%;
+    background-color: initial;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border: 0;
+    margin-left: 5px;
+    position: relative;
+    overflow: visible;
+    outline: 0;
+}
+
+.sprite-product-sharing-fm {
+    background-position: 0 -100%;
+}
+
+.sprite-product-sharing-fb {
+    background-position: 0 0;
+}
+
+.sprite-product-sharing-pinterest {
+    background-position: 0 -300%;
+}
+
+.sprite-product-sharing-twitter {
+    background-position: 0 -400%;
+}
+
+.border_1px_000000_09 {
+    border-right: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.margin-right-10px {
+    margin-right: 10px;
+}
+
+.product-briefing-right {
+    width: 100%;
+    padding: 1.25rem 2.1875rem 0 1.25rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.product-briefing-right-title-like {
+    display: inline-block;
+    position: relative;
+    background-color: #ee4d2d;
+    padding: .1875rem .25rem;
+    color: #fff;
+    font-size: .875rem;
+    line-height: 1;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.product-briefing-right-title {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    max-height: 3rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+    max-width: 750px;
+    font-size: 1.25rem;
+}
+
+.product-briefing-full-rating {
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #767676;
+}
+
+.product-briefing-full-rating>div>div {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.product-briefing-text-rating {
+    color: #ee4d2d;
+    border-bottom: 1px solid #ee4d2d;
+    font-size: 1.125rem;
+    margin-right: 5px;
+}
+
+.shopee-rating-stars__star-wrapper {
+    position: relative;
+    margin-right: 1px;
+}
+
+.shopee-rating-stars__lit {
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.shopee-rating-stars__hollow-star {
+    color: #ee4d2d;
+    display: block;
+    stroke: currentColor;
+}
+
+.shopee-rating-stars__primary-star {
+    color: #ee4d2d;
+    stroke: #ee4d2d;
+    display: block;
+    position: absolute;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.shopee-svg-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    position: relative;
+}
+
+.product-briefing-stars-rating {
+    display: flex;
+    align-items: center;
+}
+
+.product-briefing-text-evaluate {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+    font-size: 1.125rem;
+    margin-right: 5px;
+}
+
+.product-briefing-text-sold {
+    color: #000000;
+    font-size: 1.125rem;
+    margin-right: 5px;
+}
+
+.product-briefing-full-price {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: rgba(100, 100, 100, 0.05);
+}
+
+.product-briefing-full-price>div {
+    padding: 15px 20px;
+}
+
+.product-briefing-price {
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: #ee4d2d;
+    margin-left: 10px;
+}
+
+.product-briefing-cost {
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #929292;
+}
+
+.product-briefing-reduce {
+    margin-left: 10px;
+    margin-left: 15px;
+    font-size: .75rem;
+    color: #fff;
+    text-transform: uppercase;
+    background: #ee4d2d;
+    border-radius: 2px;
+    padding: 5px 4px 2px 4px;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.product-briefing-full-detail {
+    padding: 1.5625rem 1.25rem 0 1.25rem;
+}
+
+.product-briefing-full-detail>div {
+    margin-top: -4px;
+    margin-bottom: 25px;
+    margin-left: -4px;
+    padding: 4px;
+    color: #222;
+}
+
+.product-briefing-full-detail_nav {
+    color: #757575;
+    min-width: 110px;
+    width: 110px;
+    text-transform: capitalize;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.product-briefing-full-detail-insurance-new {
+    background-color: #ee4d2d;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 5px;
+    padding: 0 5px;
+}
+
+.product-briefing-full-detail-insurance-link {
+    color: #08f;
+    margin-left: 20px;
+}
+
+.product-briefing-full-detail-transport {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 10px;
+}
+
+.icon-free-shipping-line {
+    font-size: 1.25rem;
+    margin-left: .3125rem;
+    margin-right: .3125rem;
+    stroke: #000;
+}
+
+.product-briefing-full-detail-transport_nav {
+    color: #757575;
+    width: 150px;
+    text-transform: capitalize;
+}
+
+.icon-arrow-down {
+    font-size: .625rem;
+    fill: #636363;
+    margin-left: 5px;
+    pointer-events: none;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-briefing-full-detail-color_button {
+    overflow: visible;
+    min-width: 5rem;
+    min-height: 2.125rem;
+    padding: .25rem .75rem;
+    margin: 0 8px 8px 0;
+    color: rgba(0, 0, 0, .8);
+    text-align: left;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, .09);
+    position: relative;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-briefing-full-detail-color_button:hover {
+    color: #ee4d2d;
+    border: 1px solid #ee4d2d;
+}
+
+.product-briefing-full-detail-quantity-input {
+    width: 75px;
+    height: 40px;
+    font-weight: 400;
+    text-align: center;
+    -webkit-appearance: none;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1;
+    border-top: 1px solid rgba(0, 0, 0, .09);
+    border-bottom: 1px solid rgba(0, 0, 0, .09);
+    color: rgba(0, 0, 0, .8);
+}
+
+.product-briefing-full-detail-quantity-button-left {
+    width: 32px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, .09);
+    border-radius: 2px 0 0 2px;
+}
+
+.product-briefing-full-detail-quantity-button-right {
+    width: 32px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, .09);
+    border-radius: 0 2px 2px 0;
+}
+
+.icon-add-to-cart {
+    stroke: #ee4d2d;
+    margin-right: 10px;
+    color: #ee4d2d;
+    font-size: 1.25rem;
+}
+
+.button-add-to-cart {
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: rgba(255, 87, 34, 0.05);
+    color: #ee4d2d;
+    border: 1px solid #ee4d2d;
+    font-size: 1rem;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.button-add-to-cart:hover {
+    background-color: rgba(255, 87, 34, 0.1);
+}
+
+.btn-solid-primary {
+    color: #fff;
+    position: relative;
+    overflow: visible;
+    outline: 0;
+    background: #ee4d2d;
+}
+
+.btn-solid-primary:hover {
+    background: #f0664b;
+}
+
+.btn--l {
+    font-size: 16px;
+    height: 48px;
+    padding: 0 20px;
+    border-radius: 2px;
+}
+
+.product-briefing-full-detail-quantity-text {
+    color: #757575;
+    margin-left: 15px;
+}
